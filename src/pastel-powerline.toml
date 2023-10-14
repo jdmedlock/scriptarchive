@@ -2,12 +2,12 @@ format = """
 [](#52B837)\
 $os\
 $username\
-[](bg:#298A7A fg:#52B837)\
+[](bg:#DBCA41 fg:#52B837)\
 $directory\
-[](fg:#298A7A bg:#DA7F41)\
+[](fg:#DBCA41 bg:#9AE387)\
 $git_branch\
 $git_status\
-[](fg:#DA7F41 bg:#86BBD8)\
+[](fg:#9AE387 bg:#86BBD8)\
 
 $c\
 $elixir\
@@ -38,16 +38,16 @@ show_always = true
 style_user = "bg:#52B837"
 style_root = "bg:#52B837"
 format = '[$user ]($style)'
-disabled = false
+disabled = true
 
 # An alternative to the username module which displays a symbol that
 # represents the current operating system
 [os]
 style = "bg:#52B837"
-disabled = true # Disabled by default
+disabled = false # Disabled by default
 
 [directory]
-style = "bg:#298A7A"
+style = "bg:#DBCA41"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -87,11 +87,11 @@ format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:#DA7F41"
+style = "bg:#9AE387"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#DA7F41"
+style = "bg:#9AE387"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
