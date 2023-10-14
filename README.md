@@ -2,7 +2,7 @@
 
 An archive of useful scripts.
 
-# Script Directory
+## Script Directory
 
 | Script | Usage |
 | --- | --- |
